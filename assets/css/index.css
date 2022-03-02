@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerLogoImg {
+    width: 150px;
+    border-radius: 2px;
+    border: 2px solid white;
+    margin: 10px 0px 10px 70px;
+}
+
+.headerLogoImg:hover {
+    width: 150px;
+    border-radius: 2px;
+    border: 2px solid white;
+}
+
+.dropdown {
+    float: right;
+}
+
+.navvvv a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+}
+
+.navvvv .hoverable a:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+/* .headerLogoImg a:hover {
+    background-color: #343a40;
+} */
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 7px 8px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.hoverable,
+.dropdown {
+    margin-right: 3%;
+    margin-top: 2.5%;
+    border-left: 1px solid rgb(255, 0, 0);
+}
+
+.hoverable:hover,
+.dropdown:hover .dropbtn {
+    background-color: red;
+    transition: 0.3s;
+    text-decoration: none;
+    color: white;
+    /* padding: 14px 16px; */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.footerLogoImg {
+    width: 70%;
+}
+
+#subscribeForm {
+    color: #FFFFFF;
+}
+
+.vertical {
+    transform: rotate(90deg);
+    width: 270px;
+}
+
+.fa-twitter,
+.fa-linkedin,
+.fa-instagram {
+    border-left: 1px solid rgb(255, 0, 0);
+    padding-left: 20px;
+}
+
+.fa-facebook {
+    padding-left: 20px;
+}
+
+.carousel-caption {
+    margin: 5% 10% 10% 10%;
+}
